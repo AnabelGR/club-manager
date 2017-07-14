@@ -1,0 +1,20 @@
+{
+  "name": "club-manager",
+  "description": "Angular2 project using Firebase",
+  "main": "main.ts",
+  "authors": [
+    "Anabel <anabel@apparentinc.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
