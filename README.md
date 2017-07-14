@@ -13,9 +13,10 @@ This web application is for a club manager to keep track of clubs associated wit
 |Any user can view a list of teams.  | "click teams link"|"list of teams"|
 |Any user can view a details of a team on click.  | "click team link"|"team name, roster, schedule, scores"|
 |Any user can view the about page.  | "click about link"|"information about the club"|
-|Manager can access a database of the information.  | "click admin link"|"features allowing edit, adding, deleting information"|
-|Manager can edit club information.  | "click admin/edit link under team"|"edit information"|
-|Manager can delete a player from a club.  | "click admin/delete link next to player"|"delete player"|
+|Manager can access a database of the information.  | "click admin link"|"features allowing edit, adding, deleting information viewable"|
+|Manager can add a club.  | "click admin/add link"|"add club form"|
+|Manager can edit club information.  | "click admin/edit link under team"|"edit information form"|
+|Manager can delete a club.  | "click admin/delete link next to club"|"delete club"|
 
 ## Further Development
 The database includes a roster portion and the project has the model ready to go. Still needs implementation.
