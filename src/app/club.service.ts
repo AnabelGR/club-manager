@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Club } from './club.model';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
-
 @Injectable()
 export class ClubService {
   clubs: FirebaseListObservable<any[]>;
@@ -25,17 +24,7 @@ export class ClubService {
 
   updateClub(localUpdatedClub){
   const clubEntryInFirebase = this.getClubById(localUpdatedClub.$key);
-  clubEntryInFirebase.update({clubs: localUpdatedClub.clubs,
-                              league: localUpdatedClub.league,
-                              clubName: localUpdatedClub.clubName,
-                              manager: localUpdatedClub.manager,
-                              managerPhone: localUpdatedClub.managerPhone,
-                              managerEmail: localUpdatedClub.managerEmail,
-                              teamLogo: localUpdatedClub.teamLogo,
-                              teamHomeKit: localUpdatedClub.teamHomeKit,
-                              teamAwayKit: localUpdatedClub.teamAwayKit,
-                              clubId: localUpdatedClub.clubId
-                            });
+  clubEntryInFirebase.update({clubName: localUpdatedClub.clubName, league: localUpdatedClub.league, manager: localUpdatedClub.manager, managerPhone: localUpdatedClub.managerPhone, managerEmail: localUpdatedClub.managerEmail, teamLogo: localUpdatedClub.teamLogo, teamHomeKit: localUpdatedClub.teamHomeKit, teamAwayKit: localUpdatedClub.teamAwayKit, clubId: localUpdatedClub.clubId});
   }
 
   deleteClub(localClubToDelete){

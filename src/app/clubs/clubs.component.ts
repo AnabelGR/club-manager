@@ -10,13 +10,14 @@ import { FirebaseListObservable } from 'angularfire2/database';
   styleUrls: ['./clubs.component.css'],
   providers: [ClubService]
 })
+
 export class ClubsComponent implements OnInit {
   clubs: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
 
-  constructor(private router: Router, private clubService: ClubService) { }
+  constructor(private router: Router, private clubService: ClubService){}
 
-  ngOnInit() {
+  ngOnInit(){
     this.clubs = this.clubService.getClubs();
   }
 
@@ -25,7 +26,6 @@ export class ClubsComponent implements OnInit {
   };
 
   return(){
-    window.history.back();
+  window.history.back();
   }
-
 }

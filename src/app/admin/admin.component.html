@@ -1,3 +1,74 @@
-<p>
-  admin works!
-</p>
+<button (click)="showAddClubForm()" *ngIf="addClubButton">ADD A CLUB</button>
+<div *ngIf="addClubForm" class="panel panel-default">
+  <div class="panel-heading" id="add">
+    <h3 class="panel-title">Add New Club to Club</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-3">
+        <label>Club League:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newLeague>
+      </div>
+      <div class="col-md-3">
+        <label>Club Name:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newClubName>
+      </div>
+      <div class="col-md-3">
+        <label>Club Manager:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newManager>
+      </div>
+      <div class="col-md-3">
+        <label>Club Manager Phone:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newManagerPhone>
+      </div>
+      <div class="col-md-3">
+        <label>Club Manager Email:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newManagerEmail>
+      </div>
+      <div class="col-md-3">
+        <label>Club Logo Link:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newTeamLogo>
+      </div>
+      <div class="col-md-3">
+        <label>Club Home Kit Colors:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newTeamHomeKit>
+      </div>
+      <div class="col-md-3">
+        <label>Club Away Kit Colors:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newTeamAwayKit>
+      </div>
+      <div class="col-md-3">
+        <label>Club Abbreviation:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newClubId>
+      </div>
+      <div class="col-md-3">
+        <button (click)="submitForm(newClubs.value, newLeague,value, newClubName.value, newManager.value, newManagerPhone.value, newManagerEmail.value, newTeamLogo.value, newTeamHomeKit,value, newTeamAwayKit.value, newClubId.value);">ADD</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <app-clubs></app-clubs>
+  <br>
+  <br>
+  <br>
+</div>

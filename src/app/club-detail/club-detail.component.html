@@ -1,3 +1,18 @@
-<p>
-  club-detail works!
-</p>
+<div class="panel panel-default">
+    <div class="panel-heading" id="heading">
+      <h3>{{(clubToDisplay | async)?.clubs}}</h3>
+    </div>
+    <div class="panel-body" id="detail">
+      <h4>{{(clubToDisplay | async)?.clubName}}</h4>
+      <p>{{(clubToDisplay | async)?.league}}</p>
+      <p>{{(clubToDisplay | async)?.manager}}</p>
+      <p>{{(clubToDisplay | async)?.managerPhone}}</p>
+      <p>{{(clubToDisplay | async)?.managerEmail}}</p>
+      <p>{{(clubToDisplay | async)?.teamHomeKit}}</p>
+      <p>{{(clubToDisplay | async)?.teamAwayKit}}</p>
+      <img src="{{(clubToDisplay | async)?.teamLogo}}">
+  </div>
+  <div class="panel-footer">
+    <p><a (click)="return()">RETURN</a></p>
+  </div>
+</div>

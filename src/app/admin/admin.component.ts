@@ -16,7 +16,7 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(club: string,
+  submitForm(
     league: string,
     clubName: string,
     manager: string,
@@ -25,15 +25,8 @@ export class AdminComponent implements OnInit {
     teamLogo: string,
     teamHomeKit: string,
     teamAwayKit: string,
-    clubId: string,
-    roster: string,
-    playerFirstName: string,
-    playerLastName: string,
-    playerNumber: string,
-    playerPosition: string,
-    OGFC: boolean,
-    WSFC: boolean) {
-    const newClub: Club = new Club(club, league, clubName, manager, managerPhone, managerEmail, teamLogo, teamHomeKit, teamAwayKit, clubId, roster, playerFirstName, playerLastName, playerNumber, playerPosition, OGFC, WSFC);
+    clubId: string) {
+    const newClub: Club = new Club(league, clubName, manager, managerPhone, managerEmail, teamLogo, teamHomeKit, teamAwayKit, clubId);
     this.clubService.addClub(newClub);
     this.addClubForm = false;
   }
