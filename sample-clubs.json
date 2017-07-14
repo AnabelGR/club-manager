@@ -2,8 +2,8 @@
     "clubName": "Old Growth FC - Green",
     "league": "Over 30 D3",
     "manager": "Todd Diskin",
-    "manager phone": "503-555-5555",
-    "manager email": "todd@ogfc.com",
+    "managerPhone": "503-555-5555",
+    "managerEmail": "todd@ogfc.com",
     "teamLogo": "./src/assets/images/OGFC-logo.jpg",
     "teamHomeKit": "green",
     "teamAwayKit": "yellow",
@@ -12,11 +12,252 @@
     "clubName": "Whipsaws FC Open",
     "league": "NUWS",
     "manager": "Angie Herrera",
-    "manager phone": "503-555-5555",
-    "manager email": "angie@wsfc.com",
-    "teamLogo": "./src/assets/images/whipsaws-logo.jpg",
+    "managerPhone": "503-555-5555",
+    "managerEmail": "angie@wsfc.com",
+    "teamLogo": "./src/assets/images/whipsaws-logo.png",
     "teamHomeKit": "white",
     "teamAwayKit": "green",
     "clubId": "WSFC"
+  }],
+  "roster": [{
+    "playerFirstName": "Aaron",
+    "playerLastName": "Abrams",
+    "playerNumber": "93",
+    "playerPosition": "Left Back",
+    "OGFC": "true"
+    },{
+    "playerFirstName": "Patrick",
+    "playerLastName": "Boyle",
+    "playerNumber": "88",
+    "playerPosition": "Right Back",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Todd",
+    "playerLastName": "Diskin",
+    "playerNumber": "13",
+    "playerPosition": "Forward",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Chris",
+    "playerLastName": "Erickson",
+    "playerNumber": "30",
+    "playerPosition": "Defensive Mid",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Andres",
+    "playerLastName": "Figliozzi",
+    "playerNumber": "20",
+    "playerPosition": "Right Mid",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Russ",
+    "playerLastName": "Germick",
+    "playerNumber": "27",
+    "playerPosition": "Left Mid",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Cody",
+    "playerLastName": "Goldberg",
+    "playerNumber": "69",
+    "playerPosition": "Striker",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Jeff",
+    "playerLastName": "Jordan",
+    "playerNumber": "80",
+    "playerPosition": "Defensive Mid",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Peter",
+    "playerLastName": "Keith",
+    "playerNumber": "00",
+    "playerPosition": "Goalkeeper",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Jesse",
+    "playerLastName": "Nederland",
+    "playerNumber": "54",
+    "playerPosition": "Right Back",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Dave",
+    "playerLastName": "Petterson",
+    "playerNumber": "8",
+    "playerPosition": "Sweeper",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Brian",
+    "playerLastName": "Pincetich",
+    "playerNumber": "75",
+    "playerPosition": "Stopper",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Sean",
+    "playerLastName": "Pope",
+    "playerNumber": "34",
+    "playerPosition": "Left Back",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "David",
+    "playerLastName": "Pugh",
+    "playerNumber": "37",
+    "playerPosition": "Forward",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Lane",
+    "playerLastName": "Schelderman",
+    "playerNumber": "16",
+    "playerPosition": "Goalkeeper",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Andrew",
+    "playerLastName": "Schilling",
+    "playerNumber": "808",
+    "playerPosition": "Left Mid",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Steven",
+    "playerLastName": "Shea",
+    "playerNumber": "9",
+    "playerPosition": "Right Mid",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "John",
+    "playerLastName": "Schockley",
+    "playerNumber": "41",
+    "playerPosition": "Striker",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Rainer",
+    "playerLastName": "Thierauf",
+    "playerNumber": "43",
+    "playerPosition": "Stopper",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Lee",
+    "playerLastName": "Tyler",
+    "playerNumber": "10",
+    "playerPosition": "Sweeper",
+    "OGFC": "true"
+  },{
+    "playerFirstName": "Harper",
+    "playerLastName": "Smith",
+    "playerNumber": "93",
+    "playerPosition": "Left Back",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Jenna",
+    "playerLastName": "Boyle",
+    "playerNumber": "88",
+    "playerPosition": "Right Back",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Mary",
+    "playerLastName": "Diskin",
+    "playerNumber": "13",
+    "playerPosition": "Forward",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Angela",
+    "playerLastName": "Herrera",
+    "playerNumber": "30",
+    "playerPosition": "Defensive Mid",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Kathy",
+    "playerLastName": "Lopez",
+    "playerNumber": "20",
+    "playerPosition": "Right Mid",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Dawn",
+    "playerLastName": "Germick",
+    "playerNumber": "27",
+    "playerPosition": "Left Mid",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Wendy",
+    "playerLastName": "Goldberg",
+    "playerNumber": "69",
+    "playerPosition": "Striker",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Jem",
+    "playerLastName": "Jordan",
+    "playerNumber": "80",
+    "playerPosition": "Defensive Mid",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Stacey",
+    "playerLastName": "Keith",
+    "playerNumber": "00",
+    "playerPosition": "Goalkeeper",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Jesse",
+    "playerLastName": "Nederland",
+    "playerNumber": "54",
+    "playerPosition": "Right Back",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Michelle",
+    "playerLastName": "Petterson",
+    "playerNumber": "8",
+    "playerPosition": "Sweeper",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Brianna",
+    "playerLastName": "Pincetich",
+    "playerNumber": "75",
+    "playerPosition": "Stopper",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Zoe",
+    "playerLastName": "Pope",
+    "playerNumber": "34",
+    "playerPosition": "Left Back",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Gabriella",
+    "playerLastName": "Pugh",
+    "playerNumber": "37",
+    "playerPosition": "Forward",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Alyssa",
+    "playerLastName": "Schelderman",
+    "playerNumber": "16",
+    "playerPosition": "Goalkeeper",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Amy",
+    "playerLastName": "Schilling",
+    "playerNumber": "808",
+    "playerPosition": "Left Mid",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Amber",
+    "playerLastName": "Shea",
+    "playerNumber": "9",
+    "playerPosition": "Right Mid",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Jen",
+    "playerLastName": "Schockley",
+    "playerNumber": "41",
+    "playerPosition": "Striker",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Michelle",
+    "playerLastName": "Thierauf",
+    "playerNumber": "43",
+    "playerPosition": "Stopper",
+    "WSFC": "true"
+  },{
+    "playerFirstName": "Christine",
+    "playerLastName": "Tyler",
+    "playerNumber": "10",
+    "playerPosition": "Sweeper",
+    "WSFC": "true"
   }]
 }

@@ -1,21 +1,21 @@
 <button (click)="showAddClubForm()" *ngIf="addClubButton">ADD A CLUB</button>
 <div *ngIf="addClubForm" class="panel panel-default">
   <div class="panel-heading" id="add">
-    <h3 class="panel-title">Add New Club to Club</h3>
+    <h3 class="panel-title">Add New Club to TAFC</h3>
   </div>
   <div class="panel-body">
     <div class="row">
-      <div class="col-md-3">
-        <label>Club League:</label>
-      </div>
-      <div class="col-md-9">
-        <input #newLeague>
-      </div>
       <div class="col-md-3">
         <label>Club Name:</label>
       </div>
       <div class="col-md-9">
         <input #newClubName>
+      </div>
+      <div class="col-md-3">
+        <label>Club League:</label>
+      </div>
+      <div class="col-md-9">
+        <input #newLeague>
       </div>
       <div class="col-md-3">
         <label>Club Manager:</label>
@@ -60,7 +60,7 @@
         <input #newClubId>
       </div>
       <div class="col-md-3">
-        <button (click)="submitForm(newClubs.value, newLeague,value, newClubName.value, newManager.value, newManagerPhone.value, newManagerEmail.value, newTeamLogo.value, newTeamHomeKit,value, newTeamAwayKit.value, newClubId.value);">ADD</button>
+        <button (click)="submitForm (newClubName.value, newLeague.value, newManager.value, newManagerPhone.value, newManagerEmail.value, newTeamLogo.value, newTeamHomeKit.value, newTeamAwayKit.value, newClubId.value);">ADD</button>
       </div>
     </div>
   </div>

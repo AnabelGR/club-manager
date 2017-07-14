@@ -11,33 +11,24 @@ import { ClubService } from '../club.service';
 export class AdminComponent implements OnInit {
   addClubForm: boolean = false;
   addClubButton: boolean = true;
+
   constructor(private clubService: ClubService) { }
 
   ngOnInit() {
   }
 
-  submitForm(
-    league: string,
-    clubName: string,
-    manager: string,
-    managerPhone: string,
-    managerEmail: string,
-    teamLogo: string,
-    teamHomeKit: string,
-    teamAwayKit: string,
-    clubId: string) {
-    const newClub: Club = new Club(league, clubName, manager, managerPhone, managerEmail, teamLogo, teamHomeKit, teamAwayKit, clubId);
+  submitForm(clubName: string, league: string, manager: string, managerPhone: string, managerEmail: string, teamLogo: string, teamHomeKit: string, teamAwayKit: string, clubId: string) {
+    const newClub: Club = new Club(clubName, league, manager, managerPhone, managerEmail, teamLogo, teamHomeKit, teamAwayKit, clubId);
     this.clubService.addClub(newClub);
-    this.addClubForm = false;
   }
 
   showAddClubForm() {
   this.addClubForm = true;
   this.addClubButton = false;
   }
-
-  hideAddClubForm() {
-    this.addClubForm = false;
-  }
+  //
+  // hideAddClubForm() {
+  //   this.addClubForm = false;
+  // }
 
 }
