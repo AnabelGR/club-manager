@@ -1,3 +1,16 @@
-<p>
-  clubs works!
-</p>
+<h2 id="marketplace">Marketplace</h2>
+<div *ngFor="let club of clubs | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(club)">{{club.clubName}} in the {{club.league}} League</h3>
+      <div *ngIf="currentRoute === '/admin'">
+        <p>{{club.manager}}</p>
+        <p>{{club.managerPhone}} • {{club.managerEmail}}</p>
+        <p>{{club.roster}}</p>
+        <hr>
+        <app-edit-club [selectedClub]="club"></app-edit-club>
+      </div>
+  </div>
+</div>
+<div class="panel-footer">
+  <p><a (click)="return()">RETURN</a></p>
+</div>
