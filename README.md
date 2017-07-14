@@ -6,7 +6,7 @@
 
 ## Description
 
-This web application is for a club manager to keep track of club players.
+This web application is for a club manager to keep track of clubs associated with TAFC.
 
 |Behavior| Input (User Action/Selection) |Output|
 |---|:---|:---|
