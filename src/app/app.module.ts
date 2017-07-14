@@ -14,6 +14,7 @@ import { AdminComponent } from './admin/admin.component';
 import { EditClubComponent } from './edit-club/edit-club.component';
 import { ClubsComponent } from './clubs/clubs.component';
 import { ClubDetailComponent } from './club-detail/club-detail.component';
+import { ClubSearchComponent } from './club-search/club-search.component';
 
 
 export const firebaseConfig = {
@@ -31,7 +32,8 @@ export const firebaseConfig = {
     AdminComponent,
     EditClubComponent,
     ClubsComponent,
-    ClubDetailComponent
+    ClubDetailComponent,
+    ClubSearchComponent
   ],
   imports: [
     BrowserModule,
