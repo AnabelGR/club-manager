@@ -5,7 +5,7 @@ import { AboutComponent }   from './about/about.component';
 import { ClubsComponent }   from './clubs/clubs.component';
 import { ClubDetailComponent }   from './club-detail/club-detail.component';
 import { AdminComponent } from './admin/admin.component';
-// import { ClubSearchComponent } from './club-search/club-search.component'
+import { ClubSearchComponent } from './club-search/club-search.component'
 
 const appRoutes: Routes = [
   {
@@ -27,10 +27,10 @@ const appRoutes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
-  // },
-  // {
-  //   path: 'club-search',
-  //   component: ClubSearchComponent
+  },
+  {
+    path: 'club-search',
+    component: ClubSearchComponent
   }
 ];
 

@@ -10,7 +10,7 @@ constructor(private database: AngularFireDatabase) { }
   getClubs(start, end): FirebaseListObservable<any[]> {
     return this.database.list('/clubs', {
       query: {
-        orderByChild: 'title',
+        orderByChild: 'clubName',
         limitToFirst: 10,
         startAt: start,
         endAt: end

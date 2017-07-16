@@ -28,9 +28,9 @@ export class AdminComponent implements OnInit {
   this.addClubForm = true;
   this.addClubButton = false;
   }
-  //
-  // hideAddClubForm() {
-  //   this.addClubForm = false;
-  // }
+  
+  hideAddClubForm() {
+    this.addClubForm = false;
+  }
 
 }

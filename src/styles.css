@@ -1,10 +1,14 @@
 * {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 button {
   width:150px;
   background-color: #12B233;
+}
+
+img {
+  height:"100px";
 }
 
 input {
@@ -25,6 +29,11 @@ input {
 
 .about, #detail {
   font-size: 16px;
+}
+
+#search {
+  border: 2px solid #0A661D;
+  background-color: #F2DD42;
 }
 
 .body {
@@ -52,6 +61,6 @@ input {
   font-weight: 900;
 }
 
-.welcome {
+.welcome, .title {
   text-align: center;
 }

@@ -1,7 +1,7 @@
 <h2 id="clubs">Clubs</h2>
 <div *ngFor="let club of clubs | async" class="panel panel-default">
   <div class="panel-body clickable">
-    <h3 (click)="goToDetailPage(club)">{{club.clubName}}</h3><p> <img src="{{club.teamLogo}}" height="100px"></p>
+    <h3 (click)="goToDetailPage(club)">{{club.clubName}}</h3><p> <img src="{{club.teamLogo}}"></p>
       <div *ngIf="currentRoute === '/admin'">
         <p>LEAGUE: {{club.league}}</p>
         <p>MANAGER: {{club.manager}}</p>

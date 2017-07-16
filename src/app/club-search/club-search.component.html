@@ -1,5 +1,5 @@
-<div class="panel-body">
-  <p id="search">Club Search: </p><input type="text" (keydown)="search($event)" placeholder="search clubs" class="input">
+<div class="panel-body" id="search">
+  <p>Club Search: </p><input type="text" (keydown)="search($event)" placeholder="search clubs" class="input">
 
   <div *ngFor="let club of clubs">
     <h4 (click)="goToDetailPage(club)">{{club?.clubName}}, {{club?.league}}</h4>
